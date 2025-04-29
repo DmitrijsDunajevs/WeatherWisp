@@ -90,7 +90,7 @@ class App(ctk.CTk):
         self.air_quality_display.pack(pady=10)
 
         # api key
-        self.api_key = ""
+        self.api_key = "API_KEY"
 
     def load_settings(self):
         self.settings = {}
